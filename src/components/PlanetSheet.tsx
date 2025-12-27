@@ -268,7 +268,7 @@ function PlanetNodesPanel({
             />
           ))}
         </div>
-      ) : null}}
+      ) : null}
 
       {notice ? <div className="danger small" style={{ marginTop: 8 }}>{notice}</div> : null}
     </div>
